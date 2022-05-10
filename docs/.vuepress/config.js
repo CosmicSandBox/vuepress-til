@@ -56,7 +56,12 @@ module.exports = {
             '',
             'using-vue',
           ]
-        }
+        },
+        {
+          title: 'Vuepress',
+          collapseable: false,
+          children: ['/Vuepress/start']
+        },
       ],
     }
   },
